@@ -50,6 +50,10 @@ De positie van deze puzzel binnen het lokaal maakt in principe niet zo veel uit.
 
 - Wanneer de RFID reader en de receiver niet geconnecteerd zijn, kan de puzzel niet volledig gestart worden. Dit kan eventueel opgelost worden door Alohomora een signaal te laten versturen naar de tweede ESP32. 
 
+- De kleursensor kan soms bij de eerste meting een fout resultaat geven. Dit kan opgelost worden door bijvoorbeeld tien metingen na elkaar te doen en het gemiddelde te nemen van de verschillende waarden.
+
+- De kleursensor kan foute resultaten geven door reflectie. Er moet dus gebruik gemaakt worden van een buis die mat is, waardoor de resultaten geen invloed van reflectie zullen hebben.
+
 ## Gantt chart
 
 Via volgende link gaat u naar onze Gantt chart horende bij dit project: 

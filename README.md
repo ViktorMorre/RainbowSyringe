@@ -46,9 +46,9 @@ De positie van deze puzzel binnen het lokaal maakt in principe niet zo veel uit.
 
 ## Risico's
 
-Wanneer de 5G-puzzle niet werkt, kan de nodige RFID kaart niet verkregen worden. Dit kan opgelost worden door een tweede kaart te gebruiken die ook gebruikt kan worden om onze puzzel te starten. Deze kaart kan ergens verstopt worden binnen de kamer. De positie van die kaart kan dan via een raadsel achterhaald worden.
+- Wanneer de 5G-puzzle niet werkt, kan de nodige RFID kaart niet verkregen worden. Dit kan opgelost worden door een tweede kaart te gebruiken die ook gebruikt kan worden om onze puzzel te starten. Deze kaart kan ergens verstopt worden binnen de kamer. De positie van die kaart kan dan via een raadsel achterhaald worden.
 
-Een ander risico is dat de RFID reader en de receiver niet geconnecteerd zijn. Dit kan eventueel opgelost worden door Alohomora een signaal te laten versturen naar de tweede ESP32. 
+- Wanneer de RFID reader en de receiver niet geconnecteerd zijn, kan de puzzel niet volledig gestart worden. Dit kan eventueel opgelost worden door Alohomora een signaal te laten versturen naar de tweede ESP32. 
 
 ## Gantt chart
 

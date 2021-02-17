@@ -9,6 +9,8 @@ Om dit alles te kunnen uitvoeren wordt er gebruik gemaakt van twee ESP32's, die 
 
 Daarnaast zal de laatst besproken ESP via het wifi-netwerk geconnecteerd zijn met de broker. Op die manier kan er uiteindelijk een digit van de code die ingevoerd moet worden bij alohomara doorgestuurd worden naar de centrale eenheid of broker.
 
+## Flowchart
+
 ## Implementatie
 
 De positie van deze puzzel binnen het lokaal maakt in principe niet zo veel uit. Er moet wel voor gezorgd worden dat de knoppen minstens 1,5 meter van elkaar gescheiden zijn zodat telkens aan de voorwaarde van de "T'is beter op anderhalve meter"-puzzel voldaan is. Daarnaast gaat de spuit aan een muur moeten hangen zodat alles op een correcte manier aangesloten kan worden.
@@ -22,5 +24,5 @@ Wanneer de 5G-puzzle niet werkt, kan de nodige RFID kaart niet verkregen worden.
 Een ander risico is dat de RFID reader en de receiver niet geconnecteerd zijn. Dit kan eventueel opgelost worden door Alohomora een signaal te laten versturen naar de tweede ESP32. 
 
 ## Gantt-chart
-[I'm an inline-style link](https://share.clickup.com/g/h/4dne7-50/c3532202026c060)
+[Gantt vaccintester (ClickUp)](https://share.clickup.com/g/h/4dne7-50/c3532202026c060)
 

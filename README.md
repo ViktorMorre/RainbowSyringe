@@ -11,7 +11,7 @@ Daarnaast zal de laatst besproken ESP via het wifi-netwerk geconnecteerd zijn me
 
 ## Flowchart
 
-![Flowchart_vaccintester](Vaccintester_flowchart.png)
+![Flowchart_vaccintester](https://github.com/ViktorMorre/RainbowSyringe/blob/main/Vaccintester_flowchart%20.png)
 
 ## Implementatie
 

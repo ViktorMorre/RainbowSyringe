@@ -6,3 +6,5 @@ Door het oplossen van de 5G-puzzle, wordt er een RFID kaart verkregen. Die kaart
 Om dit alles te kunnen uitvoeren wordt er gebruik gemaakt van twee ESP32's, die met elkaar kunnen communiceren via een ESPnow-connectie. Wanneer de juiste RFID gescand wordt, wordt er een signaal verzonden van de ESP32 die verbonden is met de NFC-reader en de leds in de kast naar de ESP32 die verbonden is met de kleursensoren, de drukknoppen en de leds binnen de spuit. Dat signaal zal ervoor zorgen dat de kleursensoren, de leds binnen de spuit en de drukknoppen geactiveerd worden.
 
 Daarnaast zal de laatst besproken ESP via het wifi-netwerk geconnecteerd zijn met de broker. Op die manier kan er uiteindelijk een digit van de code die ingevoerd moet worden bij alohomara doorgestuurd worden naar de centrale eenheid of broker.
+
+# Risico's

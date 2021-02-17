@@ -28,6 +28,22 @@ De positie van deze puzzel binnen het lokaal maakt in principe niet zo veel uit.
 
 ## Budget
 
+| Artikel                                      | Aantal | Kostprijs | Totaal  |
+|----------------------------------------------|--------|-----------|---------|
+| Kleurensensor                                | 1      | 4.00 €    | 4.00 €  |
+| Esp32                                        | 2      | 5.79 €    | 11.58 € |
+| NRF24L01+ 2.4GHz wireless transceiver module | 3      | 1.95 €    | 5.85 €  |
+| Drukknoppen                                  | 3      | 2.00 €    | 6.00 €  |
+| Witte led                                    | 7      | 0.42 €    | 2.94 €  |
+| Kleurenledstrip 1m                           | 1      | 10.00 €   | 10.00 € |
+| NFC reader                                   | 1      | 5.00 €    | 5.00 €  |
+| Adapters                                     | 2      | x         | x       |
+| PCBway                                       | 1      | x         | x       |
+| Weerstanden                                  | x      | x         | 2.00 €  |
+| RobotDynUNO R3                               | 1      | 11.00 €   | 11.00 € |
+|                                              |        |           |         |
+| Totaal berekede kost                         |        |           | 58.37 € |
+
 ## Risico's
 
 Wanneer de 5G-puzzle niet werkt, kan de nodige RFID kaart niet verkregen worden. Dit kan opgelost worden door een tweede kaart te gebruiken die ook gebruikt kan worden om onze puzzel te starten. Deze kaart kan ergens verstopt worden binnen de kamer. De positie van die kaart kan dan via een raadsel achterhaald worden.

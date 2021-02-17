@@ -27,6 +27,6 @@ Een ander risico is dat de RFID reader en de receiver niet geconnecteerd zijn. D
 
 ## Gantt chart
 
-Op onderstaande link bevindt zich onze Gantt chart horende bij dit project.
+Via volgende link gaat u naar onze Gantt chart horende bij dit project: 
 [Gantt vaccintester (ClickUp)](https://share.clickup.com/g/h/4dne7-50/c3532202026c060)
 

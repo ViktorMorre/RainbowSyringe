@@ -4,7 +4,7 @@ Dit is de uitleg horende bij de vaccintester uit de escape room.
 ## Inhoud
 
 - [Algemene uitleg](#algemene-uitleg)
-- [Flowchart](#flow-chart)
+- [Flowchart](#flowchart)
 - [Implementatie](#implementatie)
 - [Budget](#budget)
 - [Risico's](#risicos)

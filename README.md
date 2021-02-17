@@ -1,5 +1,14 @@
 # RainbowSyringe
-Escape room vaccine tester
+Dit is de uitleg horende bij de vaccintester uit de escape room.
+
+## Inhoud
+
+- [Algemene uitleg](#algemene-uitleg)
+- [Flowchart](#flow-chart)
+- [Implementatie](#implementatie)
+- [Budget](#budget)
+- [Risico's](#risicos)
+- [Gantt chart](#gantt-chart)
 
 ## Algemene uitleg
 

@@ -4,7 +4,7 @@ Dit is de uitleg horende bij de vaccintester uit de escape room.
 ## Inhoud
 
 - [Algemene uitleg](#algemene-uitleg)
-- [Flowchart](#flowchart)
+- [Flowcharts](#flowcharts)
 - [Implementatie](#implementatie)
 - [Budget](#budget)
 - [Risico's](#risicos)
@@ -18,9 +18,10 @@ Om dit alles te kunnen uitvoeren wordt er gebruik gemaakt van twee ESP32's, die 
 
 Daarnaast zal de laatst besproken ESP via het wifi-netwerk geconnecteerd zijn met de broker. Op die manier kan er uiteindelijk een digit van de code die ingevoerd moet worden bij alohomara doorgestuurd worden naar de centrale eenheid of broker.
 
-## Flowchart
+## Flowcharts
 
 ![Flowchart_vaccintester](https://github.com/ViktorMorre/RainbowSyringe/blob/main/Vaccintester_flowchart.png)
+![Flowchart_RFID](https://github.com/ViktorMorre/RainbowSyringe/blob/main/flowchart_RFID.png)
 
 ## Implementatie
 

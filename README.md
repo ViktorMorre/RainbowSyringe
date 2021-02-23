@@ -25,6 +25,8 @@ Daarnaast zal de laatst besproken ESP via het wifi-netwerk geconnecteerd zijn me
 ![Flowchart_RFID](https://github.com/ViktorMorre/RainbowSyringe/blob/main/flowchart_RFID.png)
 ### Buttons
 ![Flowchart_buttons](https://github.com/ViktorMorre/RainbowSyringe/blob/main/flowchart_button.png)
+### Centrale ESP32
+
 
 
 ## Implementatie

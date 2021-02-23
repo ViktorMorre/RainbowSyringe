@@ -19,9 +19,11 @@ Om dit alles te kunnen uitvoeren wordt er gebruik gemaakt van twee ESP32's, die 
 Daarnaast zal de laatst besproken ESP via het wifi-netwerk geconnecteerd zijn met de broker. Op die manier kan er uiteindelijk een digit van de code die ingevoerd moet worden bij alohomara doorgestuurd worden naar de centrale eenheid of broker.
 
 ## Flowcharts
-
+### Vaccintester
 ![Flowchart_vaccintester](https://github.com/ViktorMorre/RainbowSyringe/blob/main/Vaccintester_flowchart.png)
+### RFID
 ![Flowchart_RFID](https://github.com/ViktorMorre/RainbowSyringe/blob/main/flowchart_RFID.png)
+
 
 ## Implementatie
 

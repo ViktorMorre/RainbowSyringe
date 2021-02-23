@@ -33,21 +33,29 @@ De positie van deze puzzel binnen het lokaal maakt in principe niet zo veel uit.
 
 ## Budget
 
-| Artikel                                      | Aantal | Kostprijs | Totaal  |
-|----------------------------------------------|--------|-----------|---------|
-| Kleurensensor                                | 1      | 4.00 €    | 4.00 €  |
-| Esp32                                        | 2      | 5.79 €    | 11.58 € |
-| NRF24L01+ 2.4GHz wireless transceiver module | 3      | 1.95 €    | 5.85 €  |
-| Drukknoppen                                  | 3      | 2.00 €    | 6.00 €  |
-| Witte led                                    | 7      | 0.42 €    | 2.94 €  |
-| Kleurenledstrip 1m                           | 1      | 10.00 €   | 10.00 € |
-| NFC reader                                   | 1      | 5.00 €    | 5.00 €  |
-| Adapters                                     | 2      | x         | x       |
-| PCBway                                       | 1      | x         | x       |
-| Weerstanden                                  | x      | x         | 2.00 €  |
-| RobotDynUNO R3                               | 1      | 11.00 €   | 11.00 € |
-|                                              |        |           |         |
-| Totaal berekede kost                         |        |           | 58.37 € |
+| Artikel                                      | Aantal | Kostprijs | Totaal  |  |
+|----------------------------------------------|--------|-----------|---------|--|
+| Kleurensensor                                | 1      | 4.00 €    | 4.00 €  |  |
+| Esp32                                        | 2      | 5.79 €    | 11.58 € |  |
+| NRF24L01+ 2.4GHz wireless transceiver module | 3      | 1.95 €    | 5.85 €  |  |
+| Witte led                                    | 7      | 0.42 €    | 2.94 €  |  |
+| Kleurenledstrip 1m                           | 1      | 10.00 €   | 10.00 € |  |
+| NFC reader                                   | 1      | 5.00 €    | 5.00 €  |  |
+| Weerstanden                                  | 7      | x         | x       |  |
+| RobotDynUNO R3                               | 1      | 11.00 €   | 11.00 € |  |
+|                                              |        |           |         |  |
+| Hebben we reeds                              |        |           | 50.37 € |  |
+|                                              |        |           |         |  |
+| Drukknoppen                                  | 3      | 2.00 €    | 6.00 €  |  |
+| Adapters                                     | 5      | x         | x       |  |
+| PCBway                                       | 1      | 5.00 €    | 5.00 €  |  |
+| Kleurensensor                                | 2      | 4.00 €    | 8.00 €  |  |
+| RobotDynUNO R3                               | 2      | 11.00 €   | 22.00 € |  |
+|                                              |        |           |         |  |
+| Nog aan te kopen                             |        |           | 41.00 € |  |
+|                                              |        |           |         |  |
+| Totaal budget                                |        |           | 91.37 € |  |
+|                                              |        |           |         |  |
 
 ## Risico's
 

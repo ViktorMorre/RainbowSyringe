@@ -26,6 +26,7 @@ Daarnaast zal de laatst besproken ESP via het wifi-netwerk geconnecteerd zijn me
 ### Buttons
 ![Flowchart_buttons](https://github.com/ViktorMorre/RainbowSyringe/blob/main/flowchart_button.png)
 ### Centrale ESP32
+![Flowchart_centralESP32](https://github.com/ViktorMorre/RainbowSyringe/blob/main/flowchart_central_ESP32.png)
 
 
 

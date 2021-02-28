@@ -10,15 +10,55 @@ using namespace std;
 #include <nRF24L01.h>
 #include <RF24.h>
 
-int frequency;
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////// SETUP LEDSTRIP //////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-#define red_light_pin 11
-#define green_light_pin  10
-#define blue_light_pin  9
+#include <Arduino.h>
+#define red 12
+#define green 13
+#define blue 14
+ //On Board LED
+
+int brightness = 0;    // how bright the LED is
+int fadeAmount = 5;    // how many points to fade the LED by
+
+// setting PWM properties
+const int freq = 5000;
+const int redChannel = 0;
+const int greenChannel = 1;
+const int blueChannel = 2;
+const int resolution = 8; //Resolution 8, 10, 12, 15
+
+//=======================================================================
+//                    Power on setup
+//=======================================================================
+void setupLed() {
+  Serial.begin(115200);
+  pinMode(red, OUTPUT);
+  pinMode(green, OUTPUT);
+  pinMode(blue,OUTPUT);
+  
+  
+  // configure LED PWM functionalitites
+  ledcSetup(redChannel, freq, resolution);
+  ledcSetup(greenChannel, freq, resolution);
+  ledcSetup(blueChannel, freq, resolution);
+  
+  
+  // attach the channel to the GPIO2 to be controlled
+  ledcAttachPin(red, greenChannel);
+  ledcAttachPin(green, greenChannel);
+  ledcAttachPin(blue, blueChannel);
+  
+}
+
+void RGB_color(int red_light_value, int green_light_value, int blue_light_value){
+  ledcWrite(redChannel, red_light_value);
+  ledcWrite(greenChannel, green_light_value);
+  ledcWrite(blueChannel, blue_light_value);
+}
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////// SETUP RECIEVER /////////////////////////////////////////////////////////////
@@ -215,15 +255,9 @@ void setup() {
   });
   server.addHandler(&events);
   server.begin();
-
-  
-  //pinmode leds
-  pinMode(red_light_pin, OUTPUT);
-  pinMode(green_light_pin, OUTPUT);
-  pinMode(blue_light_pin, OUTPUT);
-
   Serial.begin(9600); //belangrijk
 
+  setupLed();
 
 }
 
@@ -255,31 +289,37 @@ int recieved3;
 void colorMaker(int mColor1, int mColor2, int mColor3){  //groen
   if(((mColor1 || mColor2 || mColor3)==0) && ((mColor1 || mColor2 || mColor3)==6) && ((mColor1==mColor2) || (mColor2 == mColor3)|| (mColor3==mColor1))) {
       kleur=0;
-      //Moet ledcwrite worden
+      RGB_color(0, 255, 0);
     }
   //rood
   if(((mColor1 || mColor2 || mColor3)==1) && ((mColor1 || mColor2 || mColor3)==6) && ((mColor1==mColor2) || (mColor2 == mColor3)|| (mColor3==mColor1))) {
       kleur=1;
+      RGB_color(255, 0, 0);
     }
   //blauw
   if(((mColor1 || mColor2 || mColor3)==2) && ((mColor1 || mColor2 || mColor3)==6) && ((mColor1==mColor2) || (mColor2 == mColor3)|| (mColor3==mColor1))) {
       kleur=2;
+      RGB_color(0, 0, 255);
     }
   //geel
   if(((mColor1 || mColor2 || mColor3)==0) && ((mColor1 || mColor2 || mColor3)==1) && ((mColor1 || mColor2 || mColor3)==6)){
       kleur=3;
+      RGB_color(255, 255, 0);
     }
   //paars
   if(((mColor1 || mColor2 || mColor3)==1) && ((mColor1 || mColor2 || mColor3)==2) && ((mColor1 || mColor2 || mColor3)==6)){
       kleur=4;
+      RGB_color(255, 0, 255);
     }
   //cyaan
   if(((mColor1 || mColor2 || mColor3)==0) && ((mColor1 || mColor2 || mColor3)==2) && ((mColor1 || mColor2 || mColor3)==6)){
       kleur=5;
+      RGB_color(0, 255, 255);
     }
   //zwart
   if(((mColor1 || mColor2 || mColor3)==6) && ((mColor1==mColor2) || (mColor2 == mColor3)|| (mColor3==mColor1))) {
       kleur=2;
+
     }
 }
 
